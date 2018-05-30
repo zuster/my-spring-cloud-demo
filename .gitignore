@@ -1,5 +1,14 @@
 cloud-consumer-movie/target/*
 cloud-consumer-movie-feign/target/*
+cloud-consumer-movie-ribbon/target/*
+cloud-consumer-movie-ribbon-properties-customer/target/*
+cloud-consumer-movie-ribbon-without-eureka/target/*
+cloud-discovery-eureka/target/*
+cloud-provider-use-0-1/target/*
+cloud-provider-use-0-2/target/*
+cloud-provider-use-1-1/target/*
+cloud-provider-use-1-2/target/*
+
 # Compiled class file
 *.class
 
