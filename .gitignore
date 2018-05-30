@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
-cloud-consumer-movie/target
-cloud-consumer-movie-feign/target
+cloud-consumer-movie/target/*
+cloud-consumer-movie-feign/target/*
 
 # Log file
 *.log
