@@ -1,2 +1,14 @@
+spring:
+  application:
+    name: cloud-consumer-movie
 server:
-  port: 7901
+  port: 7900
+user:
+  userServicePath: http://localhost:7910/simple/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://zuster:123456@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}

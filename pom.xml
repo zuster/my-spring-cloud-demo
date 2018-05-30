@@ -10,9 +10,16 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>cloud-consumer-movie</module>
-		<module>cloud-provider-use</module>
 		<module>cloud-discovery-eureka</module>
+		<module>cloud-consumer-movie</module>
+		<module>cloud-consumer-movie-feign</module>
+		<module>cloud-consumer-movie-ribbon</module>
+		<module>cloud-consumer-movie-ribbon-properties-customer</module>
+		<module>cloud-consumer-movie-ribbon-without-eureka</module>
+		<module>cloud-provider-use-0-1</module>
+		<module>cloud-provider-use-0-2</module>
+		<module>cloud-provider-use-1-1</module>
+		<module>cloud-provider-use-1-2</module>
 	</modules>
 	
 	<properties>
@@ -32,7 +39,7 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Camden.SR7</version>
+				<version>Camden.SR1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>

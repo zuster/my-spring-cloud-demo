@@ -7,14 +7,36 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-consumer-movie" />
+        <module name="cloud-consumer-movie-feign" />
+        <module name="cloud-consumer-movie-ribbon" />
+        <module name="cloud-consumer-movie-ribbon-properties-customer" />
+        <module name="cloud-consumer-movie-ribbon-without-eureka" />
         <module name="cloud-discovery-eureka" />
         <module name="cloud-provider-use" />
+        <module name="cloud-provider-use-0-1" />
+        <module name="cloud-provider-use-0-2" />
+        <module name="cloud-provider-use-1" />
+        <module name="cloud-provider-use-1-1" />
+        <module name="cloud-provider-use-1-2" />
+        <module name="cloud-provider-use-2" />
+        <module name="cloud-provider-use2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-consumer-movie" target="1.8" />
+      <module name="cloud-consumer-movie-feign" target="1.8" />
+      <module name="cloud-consumer-movie-ribbon" target="1.8" />
+      <module name="cloud-consumer-movie-ribbon-properties-customer" target="1.8" />
+      <module name="cloud-consumer-movie-ribbon-without-eureka" target="1.8" />
       <module name="cloud-discovery-eureka" target="1.8" />
       <module name="cloud-provider-use" target="1.8" />
+      <module name="cloud-provider-use-0-1" target="1.8" />
+      <module name="cloud-provider-use-0-2" target="1.8" />
+      <module name="cloud-provider-use-1" target="1.8" />
+      <module name="cloud-provider-use-1-1" target="1.8" />
+      <module name="cloud-provider-use-1-2" target="1.8" />
+      <module name="cloud-provider-use-2" target="1.8" />
+      <module name="cloud-provider-use2" target="1.8" />
       <module name="my-spring-cloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
